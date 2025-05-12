@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>커뮤니티 | 올려</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>올려 커뮤니티</h1>
+    <nav>
+      <a href="#signup">회원가입</a>
+      <a href="#login">로그인</a>
+      <a href="#upload">작품 올리기</a>
+    </nav>
+  </header>
+
+  <section id="signup">
+    <h2>회원가입</h2>
+    <form id="signup-form">
+      <input type="text" id="username" placeholder="아이디" required>
+      <input type="password" id="password" placeholder="비밀번호" required>
+      <button type="submit">회원가입</button>
+    </form>
+  </section>
+
+  <section id="login">
+    <h2>로그인</h2>
+    <form id="login-form">
+      <input type="text" id="login-username" placeholder="아이디" required>
+      <input type="password" id="login-password" placeholder="비밀번호" required>
+      <button type="submit">로그인</button>
+    </form>
+  </section>
+
+  <section id="upload">
+    <h2>작품 올리기</h2>
+    <form id="upload-form">
+      <textarea id="post-content" placeholder="작품을 올려주세요" required></textarea>
+      <input type="file" id="file-upload">
+      <button type="submit">등록하기</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
